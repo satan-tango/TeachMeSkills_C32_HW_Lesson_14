@@ -7,7 +7,7 @@ public enum DocumentValidationState {
     INVALID_DOCUMENT_NULL_OR_EMPTY("document null or empty"),
     VALID_DOCUMENT("document is valid");
 
-    String message;
+    private final String message;
 
     DocumentValidationState(String message) {
         this.message = message;
